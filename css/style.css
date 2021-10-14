@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.gallery{
+  font-family: 'Pacifico', serif;
+  font-size: 3rem;
+}
+.food-card img{
+  height: 32vh;
+  width: 20rem;
+  object-fit: cover;
+}
+.food-image img{
+  width: 300px;
+  height: 100%;
+}
+.card-body h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-body h3{
+  color: red;
+}
+.food{
+  background-color: orange;
+}
+.navbar-brand{
+  font-family: 'Pacifico';
+  font-size: 3.0rem;
+  color: red !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding: 2rem 1.2rem;
+  font-size: 1.4rem;
+}
+.navbar-nav .btn{
+  background-color: red !important;
+  font-size: 1.2rem;
+}
+.landingpage{
+  background: url(../images/background.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.market{
+  padding: 20vh 0 0 15%;
+}
+.market h1{
+  font-size: 4rem;
+  font-weight: 700;
+}
